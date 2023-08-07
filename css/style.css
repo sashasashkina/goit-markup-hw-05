@@ -869,6 +869,12 @@ body {
 .five-field{ 
   margin-bottom: 24px; 
 }
+.input[type="checkbox"]:checked{
+  background-color: var(--listmenu-color);
+  border: none; 
+  fill: var(--paragraf-tooter);
+
+}
 .five-modal{
   font-size: 12px;
   line-height: 1.17;
