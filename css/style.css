@@ -866,7 +866,7 @@ body {
 .modal-comment:focus{
   border-color: var(--brand-color);
 }
-.label-field{ 
+.five-field{ 
   margin-bottom: 24px; 
 }
 .five-modal{
@@ -887,7 +887,7 @@ body {
   justify-content: center; 
   fill: transparent;
 }
-.six-field{
+.modal-button{
   display: block;
   min-width: 169px;
   height: 56px;
