@@ -893,7 +893,10 @@ body {
   justify-content: center; 
   fill: transparent;
 }
-.modal-button{
+.link-label{
+  color:var(--brand-color);
+}
+.six-field{
   display: block;
   min-width: 169px;
   height: 56px;
