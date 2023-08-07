@@ -896,7 +896,7 @@ body {
 .link-label{
   color:var(--brand-color);
 }
-.six-field{
+.modal-button{
   display: block;
   min-width: 169px;
   height: 56px;
