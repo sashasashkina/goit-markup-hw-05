@@ -120,7 +120,7 @@ body {
   line-height: 1.5;
   display: block;
   position: relative;
-  color: #404bbf;
+  color: var(--span-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -520,11 +520,15 @@ body {
 .footer>.container {
   display: flex;
   align-items: baseline;
+ 
+
 }
 
 .logo-paragraf {
   margin-right: 120px;
 }
+.container-social{
+margin-right: 80px;}
 
 .social-paragraf {
   font-weight: 500;
@@ -876,8 +880,8 @@ body {
  
 
 .modal-icon {
-  fill: transparent;
-  stroke: #4D5AE5;
+ 
+  fill: var(--span-color);
   position: absolute;
   left: 16px;
   top: 50%;
@@ -936,6 +940,7 @@ body {
   align-items: center; 
   justify-content: center; 
   fill: transparent;
+  margin-right: 10px;
 
 }
 .link-label{
@@ -956,9 +961,15 @@ body {
   border: none;
   border-radius: 4px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  margin-left: auto;
+  margin-right: auto;
 }
 .modal-check:checked+.modal-label span{
   background-color:var(--listmenu-color);
   border: none; 
   fill: var(--paragraf-tooter);
+}
+.span-five-image:focus{
+  stroke:var(--brand-color);
+
 }
