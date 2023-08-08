@@ -728,6 +728,13 @@ body {
   color:var(--white-color);
 
 }
+.form-button{
+  min-width: 165px; 
+  height: 40px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
 
 /* data modal */
 
